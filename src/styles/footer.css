@@ -1,0 +1,19 @@
+.footer_wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: gray;
+    color: white;
+    flex-direction: column;
+    font-size: .8rem;
+    text-align: center;
+}
+.footer_wrapper > *{
+    padding-top: 1rem !important;
+    padding-bottom: 1rem !important;
+}
+@media  screen and (min-width: 600px){
+    .footer_wrapper{
+        flex-direction: row;
+    }
+}
