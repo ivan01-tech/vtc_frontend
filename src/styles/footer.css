@@ -15,5 +15,6 @@
 @media  screen and (min-width: 600px){
     .footer_wrapper{
         flex-direction: row;
+        gap: 3rem;
     }
 }

@@ -1,28 +1,31 @@
 
-
+import image1 from "../../public/as 1.png"
+import image2 from "../../public/lgo 1.png"
+import image3 from "../../public/dse 1.png"
+import image4 from "../../public/logo 1.png"
+import image5 from "../../public/logod 1.png"
 const companiesSource = [
   {
-    name: "/as 1.png",
+    name: image1,
     alt: "company ",
     id: 1,
   },
   {
-    name: /dse 1.png",
+    name:image2,
     alt: "company ",
     id: 2,
   },
   {
-    name: "/lgon 1.png",
-    alt: "company ",
-    id: 3,
-  },
-  {
-    name: "/logo 1.png",
+    name: image3,
     alt: "company ",
     id: 4,
   },
   {
-    name: "/logod 1.png",
+    name:image4,
+    alt: "company ",
+    id: 5,
+  }, {
+    name:image5,
     alt: "company ",
     id: 5,
   },

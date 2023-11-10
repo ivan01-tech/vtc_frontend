@@ -153,7 +153,7 @@ function App() {
             alt=""
           />
           <div className="testimonials_description">
-            <h2>
+            <h2 className="title">
             Mboa
             </h2>
           </div>
@@ -162,9 +162,9 @@ function App() {
         <div className="bundle_pricing">
           <h4>La fibre pout toute la famille</h4>
 
-          <p>25 000 XAF</p>
+          <p className="price">25 000 XAF</p>
 
-          <div>
+          <div className="caracterisque">
             <div>
               <AiOutlineCheckCircle></AiOutlineCheckCircle>
               <span>Jusqu'à 2 Gbit/s de débit en téléchargement</span>
@@ -187,22 +187,22 @@ function App() {
             </div>
           </div>
 
-          <div>
+          <div className="suscribe_btn">
             <button>Souscrire en ligne</button>
           </div>
         </div>
       </div>
 
       {/* message */}
-      <section>
+      <section className="testinomial_section">
         <h3>
           Ne vous fiez pas seulement à nos paroles - découvrez ce que nos
           clients satisfaits ont à dire à propos de notre service.
         </h3>
 
-        <div>
-          <div></div>
-          <div></div>
+        <div className="testimonial_wrapper">
+          <div className="testimonial_item"></div>
+          <div className="testimonial_item"></div>
         </div>
       </section>
     </>
