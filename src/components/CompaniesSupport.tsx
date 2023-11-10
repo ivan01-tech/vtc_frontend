@@ -2,27 +2,27 @@
 
 const companiesSource = [
   {
-    name: "/public/as 1.png",
+    name: "/as 1.png",
     alt: "company ",
     id: 1,
   },
   {
-    name: "/public/dse 1.png",
+    name: /dse 1.png",
     alt: "company ",
     id: 2,
   },
   {
-    name: "/public/lgon 1.png",
+    name: "/lgon 1.png",
     alt: "company ",
     id: 3,
   },
   {
-    name: "/public/logo 1.png",
+    name: "/logo 1.png",
     alt: "company ",
     id: 4,
   },
   {
-    name: "/public/logod 1.png",
+    name: "/logod 1.png",
     alt: "company ",
     id: 5,
   },
